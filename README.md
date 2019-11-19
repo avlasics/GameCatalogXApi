@@ -3,8 +3,8 @@
 The first step is to clone the repo and then build the project.  I recommend *Batch Build* for this.
 
 **Important**
-The GameCatalogXApi project will automatically create a database when it is run in debug mode for the first time 
-so it is necessary to modify the connection string in *web.config*
+The GameCatalogXApi project will automatically create a database when it is run (F5) in debug mode for the first time 
+so it is necessary to modify the connection string in *web.config* - full access will be required.
 
 This is the default connection string - it will need to be changed depending on how you have set up SQL Server:
 ```xml
