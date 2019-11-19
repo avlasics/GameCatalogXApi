@@ -1,6 +1,8 @@
 # GameCatalogXApi
-The api project will automatically create a database when it is run in debug mode for the first time 
+The GameCatalogXApi project will automatically create a database when it is run in debug mode for the first time 
 so it is necessary to modify the connection string in web.config
+
+It was created using Visual Studio Community 2019
 
 Database gets created and seeded only if it does not already exist.
 
