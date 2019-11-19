@@ -6,7 +6,7 @@ The first step is to clone the repo and then build the project.  I recommend *Ba
 The GameCatalogXApi project will automatically create a database when it is run (F5) in debug mode for the first time 
 so it is necessary to modify the connection string in *web.config* - full access will be required.
 
-This is the default connection string - it will need to be changed depending on how you have set up SQL Server:
+This is the default connection string - it will need to be changed depending on how you have set up SQL Server locally:
 ```xml
   <connectionStrings>
     <add name="GameCatalogX" connectionString="data source=localhost;initial catalog=catalogx;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
